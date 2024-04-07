@@ -38,8 +38,11 @@ function TopBar() {
         >
           {title}
         </Typography>
-        <Typography variant="h6" component="div" sx={{ flexGrow: 1 }}>
-        </Typography>
+        <Typography
+          variant="h6"
+          component="div"
+          sx={{ flexGrow: 1 }}
+        ></Typography>
         <Typography variant="h6" component="div">
           {userName}
         </Typography>
